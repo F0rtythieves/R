@@ -17,12 +17,12 @@ plot1 <-
 plot2 <-
   ggplot( data = mouse.tibble.chr1_19,
           aes( x = reorder( `Chromosome/scaffold name`,
-                            `Transcript length (including UTRs and CDS)`,
+                            -`Transcript length (including UTRs and CDS)`,
                             median ),
                y = `Transcript length (including UTRs and CDS)` ) ) +
   geom_boxplot() +
   coord_flip() +
-  ylim( 0, 2500 ) ;
+  ylim( 0, 5000 ) ;
 ##导出pdf
 ggsave(plot1,filename = "1.pdf",width = 12,height = 9)
 ggsave(plot2,filename = "3.pdf",width = 12,height = 9)
