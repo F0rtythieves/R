@@ -1,0 +1,5 @@
+ 每个职业的最佳学科分别是什么（按平均分排序）
+Occupation	avg_grades	best_course	best_grade
+Teacher	82.125	English	97
+Entrepreneur	79.25	English	100
+Student	73.375	English	89

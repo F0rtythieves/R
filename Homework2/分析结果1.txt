@@ -1,0 +1,9 @@
+每个人最差的学科和成绩
+Name	avg_grades	worst_course	worst_grade
+Jane Doe	70.5	Bioinformatics	57
+Elon Musk	74.25	Bioinformatics	67
+Mm Hu	76.25	Biology	63
+Jack Ma	79.25	Biology	59
+Weihua Chen	81.75	Biology	73
+John Doe	82.5	Bioinformatics	60
+Warren Buffet	84.25	Bioinformatics	74
